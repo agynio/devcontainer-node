@@ -40,8 +40,8 @@ Use as a devcontainer image:
 ## Versioning
 
 - `main` publishes tags: `main`, `sha-<short>`
-- Semver tags `vX.Y.Z` publish: `X.Y.Z`, `X.Y`, `X`, `latest`
-- Pre-release tags do not publish `latest`
+- Semver tags `vX.Y.Z` publish: `X.Y.Z`, `X.Y`, `X`
+- Pin to a major version tag (e.g. `:1`) for automatic minor/patch updates
 
 ## Updating tool versions
 
